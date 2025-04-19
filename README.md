@@ -1,2 +1,2 @@
-# ai
+# AI
 All things AI
