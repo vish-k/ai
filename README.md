@@ -4,13 +4,19 @@ This repository serves as my personal laboratory for exploring and experimenting
 
 ## 🗂 Project Catalog
 
-### 1. Generative AI
+### 1. Machine Learning Basics
+- **[ML Hello World](./ml-hello-world/README.md)**
+  - Simple linear regression example using TensorFlow
+  - Demonstrates basic neural network concepts
+  - Example: Predicting values using y = 5x + 5 relationship
+
+### 2. Generative AI
 - **[Stable Diffusion Implementation](./stable-diffusion/README.md)**
   - Text-to-image generation optimized for Apple Silicon
   - Uses Metal Performance Shaders (MPS) for hardware acceleration
   - Example: Generating creative images from text prompts
 
-### 2. Agentic AI (Planned)
+### 3. Agentic AI (Planned)
 - Autonomous AI agents that can:
   - Perform complex tasks through decomposition
   - Interact with their environment
@@ -20,7 +26,7 @@ This repository serves as my personal laboratory for exploring and experimenting
   - Multi-agent collaboration
   - Environment interaction
 
-### 3. Model Context Protocol (MCP) (Planned)
+### 4. Model Context Protocol (MCP) (Planned)
 - Framework for AI model interaction
 - Standardized communication protocols
 - Context management and optimization
@@ -41,6 +47,9 @@ This repository serves as my personal laboratory for exploring and experimenting
 ```
 .
 ├── README.md                 # Main documentation
+├── ml-hello-world/          # Basic ML experiments
+│   ├── hello-model.py       # Linear regression implementation
+│   └── README.md           # ML-specific documentation
 ├── stable-diffusion/        # Stable Diffusion experiments
 │   ├── image.py            # Image generation implementation
 │   └── README.md           # SD-specific documentation
@@ -51,6 +60,7 @@ This repository serves as my personal laboratory for exploring and experimenting
 ## 🛠 Technologies Used
 
 - Python 3.9+
+- TensorFlow
 - PyTorch
 - Hugging Face Transformers
 - Diffusers
