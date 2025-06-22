@@ -1,2 +1,5 @@
 dog-in-air.png
 .DS_Store
+
+# Keras model files
+**/*.keras
