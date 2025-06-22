@@ -26,14 +26,17 @@ This repository serves as my personal laboratory for exploring and experimenting
   - Multi-agent collaboration
   - Environment interaction
 
-### 4. Model Context Protocol (MCP) (Planned)
-- Framework for AI model interaction
-- Standardized communication protocols
-- Context management and optimization
-- Future implementations:
-  - MCP server setup
-  - Model integration examples
-  - Context handling patterns
+### 4. Model Context Protocol (MCP)
+- **[Weather MCP Server](./mcp-server-weather/README.md)**
+  - Integrates with Open-Meteo API for weather data
+  - Demonstrates async API handling in MCP
+  - Example: Getting current weather conditions by coordinates
+
+- **[GitHub Models Helper](./gh-models-helper/README.md)**
+  - Interacts with GitHub's AI models
+  - Compare responses from different models
+  - Features model listing, metadata, and response comparison
+  - Example: Comparing GPT-4, Claude, and other models' responses
 
 ## 🎯 Goals
 
@@ -47,14 +50,23 @@ This repository serves as my personal laboratory for exploring and experimenting
 ```
 .
 ├── README.md                 # Main documentation
-├── ml-hello-world/          # Basic ML experiments
-│   ├── hello-model.py       # Linear regression implementation
-│   └── README.md           # ML-specific documentation
-├── stable-diffusion/        # Stable Diffusion experiments
-│   ├── image.py            # Image generation implementation
-│   └── README.md           # SD-specific documentation
-├── agentic-ai/             # (Planned) Agentic AI experiments
-└── mcp/                    # (Planned) MCP implementations
+├── inference-example/       # ML model inference example
+│   ├── inference.py        # Inference script
+│   ├── training.py         # Model training script
+│   └── README.md          # Documentation
+├── ml-hello-world/         # Basic ML experiments
+│   ├── hello-model.py      # Linear regression implementation
+│   └── README.md          # ML-specific documentation
+├── stable-diffusion/       # Stable Diffusion experiments
+│   ├── image.py           # Image generation implementation
+│   └── README.md          # SD-specific documentation
+├── mcp-server-weather/     # Weather MCP server
+│   ├── server.py          # Weather API integration
+│   └── README.md          # Documentation
+├── gh-models-helper/       # GitHub Models MCP server
+│   ├── src/               # TypeScript source files
+│   └── README.md          # Documentation
+└── agentic-ai/            # (Planned) Agentic AI experiments
 ```
 
 ## 🛠 Technologies Used
